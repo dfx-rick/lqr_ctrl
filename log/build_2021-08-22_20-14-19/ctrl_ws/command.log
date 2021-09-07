@@ -1,0 +1,2 @@
+Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

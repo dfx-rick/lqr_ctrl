@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.050s] [35m[1mScanning dependencies of target lqr_base[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o[0m
+[1.072s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K In member function ‘[01m[Kvoid lqr::updateK(lss&)[m[K’:
+[1.073s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:47:42:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::MatrixXcd[m[K’ {aka ‘[01m[Kclass Eigen::Matrix<std::complex<double>, -1, -1>[m[K’} has no member named ‘[01m[Kzeros[m[K’
+[1.073s]    47 |  Eigen::MatrixXcd ev= Eigen::MatrixXcd().[01;31m[Kzeros[m[K(2*NumofStates, NumofStates);
+[1.073s]       |                                          [01;31m[K^~~~~[m[K
+[1.073s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:53:16:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<std::complex<double>, -1, -1>::cols(int&)[m[K’
+[1.073s]    53 |     ev.cols((j)[01;31m[K)[m[K=es.eigenvectors().block(0,i,2*NumofStates, 1);
+[1.073s]       |                [01;31m[K^[m[K
+[1.073s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:457[m[K,
+[1.073s]                  from [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:3[m[K,
+[1.074s]                  from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[1.074s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Index Eigen::PlainObjectBase<Derived>::cols() const [with Derived = Eigen::Matrix<std::complex<double>, -1, -1>; Eigen::Index = long int][m[K’
+[1.074s]   153 |     EIGEN_STRONG_INLINE Index [01;36m[Kcols[m[K() const { return m_storage.cols(); }
+[1.074s]       |                               [01;36m[K^~~~[m[K
+[1.074s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[5.492s] make[2]: *** [CMakeFiles/lqr_base.dir/build.make:63: CMakeFiles/lqr_base.dir/src/lqr.cpp.o] Error 1
+[5.492s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_base.dir/all] Error 2
+[5.492s] make: *** [Makefile:141: all] Error 2
+[5.493s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

@@ -1,0 +1,20 @@
+[0.013s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.050s] [35m[1mScanning dependencies of target lqr_core[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[1.003s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KupdateK[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.003s]    38 | lqr::updateK(lss &system_[01;31m[K)[m[K{
+[1.003s]       |                          [01;31m[K^[m[K
+[1.003s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint lqr::updateK(lss&)[m[K’
+[1.003s]    38 | [01;31m[Klqr[m[K::updateK(lss &system_){
+[1.003s]       | [01;31m[K^~~[m[K
+[1.003s] In file included from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[1.003s] [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:30:7:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid lqr::updateK(lss&)[m[K’
+[1.003s]    30 |  void [01;36m[KupdateK[m[K(lss &system_);
+[1.004s]       |       [01;36m[K^~~~~~~[m[K
+[1.004s] [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass lqr[m[K’ defined here
+[1.004s]    20 | class [01;36m[Klqr[m[K{
+[1.004s]       |       [01;36m[K^~~[m[K
+[1.094s] make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+[1.094s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+[1.094s] make: *** [Makefile:141: all] Error 2
+[1.096s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

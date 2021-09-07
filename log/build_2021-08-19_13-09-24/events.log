@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000840] (ctrl_ws) JobQueued: {'identifier': 'ctrl_ws', 'dependencies': OrderedDict()}
+[0.000882] (ctrl_ws) JobStarted: {'identifier': 'ctrl_ws'}
+[0.010161] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'cmake'}
+[0.011577] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'build'}
+[0.011678] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfx-rick/ctrl_ws/build/ctrl_ws', '--', '-j4', '-l4'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '5170'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:47040'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/5217,unix/rikin-linux-20:/tmp/.ICE-unix/5217'), ('INVOCATION_ID', '5820499cd20a4382b2f0ef773c57fdcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/826a935a_cb3f_4c21_9dd8_4d56f889f683'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055328] (ctrl_ws) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lqr_implement\x1b[0m\n'}
+[0.063881] (ctrl_ws) StdoutLine: {'line': b'[ 50%] Built target lqr_base\n'}
+[0.079725] (ctrl_ws) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o\x1b[0m\n'}
+[0.099804] (-) TimerEvent: {}
+[0.200170] (-) TimerEvent: {}
+[0.300486] (-) TimerEvent: {}
+[0.400842] (-) TimerEvent: {}
+[0.501177] (-) TimerEvent: {}
+[0.601521] (-) TimerEvent: {}
+[0.701866] (-) TimerEvent: {}
+[0.802196] (-) TimerEvent: {}
+[0.902491] (-) TimerEvent: {}
+[1.002738] (-) TimerEvent: {}
+[1.103028] (-) TimerEvent: {}
+[1.203320] (-) TimerEvent: {}
+[1.303660] (-) TimerEvent: {}
+[1.403953] (-) TimerEvent: {}
+[1.504307] (-) TimerEvent: {}
+[1.604731] (-) TimerEvent: {}
+[1.705032] (-) TimerEvent: {}
+[1.805336] (-) TimerEvent: {}
+[1.905620] (-) TimerEvent: {}
+[2.005906] (-) TimerEvent: {}
+[2.024418] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::ctrl_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.024603] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:29:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >, rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.024683] (ctrl_ws) StderrLine: {'line': b'   29 | s::msg::Float32>("/joint"+std::to_string(i+1)+"_ctrl", 100\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.024747] (ctrl_ws) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.024807] (ctrl_ws) StderrLine: {'line': b'\n'}
+[2.024865] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.024924] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.024983] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.025042] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.025101] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.025159] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.025256] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.025329] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.025405] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.025501] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.025573] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.025631] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >& rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >::operator=(const rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99 <deleted>\n'}
+[2.025695] (ctrl_ws) StderrLine: {'line': b'   51 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[2.025751] (ctrl_ws) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.025807] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.041884] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:32:152:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::create_subscription<std_msgs::msg::Float32MultiArray>(const char [11], std::_Bind_helper<false, void (ctrl_node::*)(std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >), ctrl_node*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.042309] (ctrl_ws) StderrLine: {'line': b'   32 | d::bind(&ctrl_node::callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.042392] (ctrl_ws) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.042455] (ctrl_ws) StderrLine: {'line': b'\n'}
+[2.042515] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.042575] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.042634] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.042692] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.042760] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.042831] (ctrl_ws) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.042888] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.042949] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.043007] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:32:152:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[2.043065] (ctrl_ws) StderrLine: {'line': b'   32 | d::bind(&ctrl_node::callback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.043122] (ctrl_ws) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.043184] (ctrl_ws) StderrLine: {'line': b'\n'}
+[2.043242] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:33:153:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::create_subscription<std_msgs::msg::Float32MultiArray>(const char [9], std::_Bind_helper<false, void (ctrl_node::*)(std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >), ctrl_node*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043306] (ctrl_ws) StderrLine: {'line': b'   33 | bind(&ctrl_node::descallback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.043364] (ctrl_ws) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.043421] (ctrl_ws) StderrLine: {'line': b'\n'}
+[2.043477] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.043535] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.043593] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.043651] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.043709] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043770] (ctrl_ws) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.043828] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.043885] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.043943] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:33:153:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[2.044002] (ctrl_ws) StderrLine: {'line': b'   33 | bind(&ctrl_node::descallback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.044059] (ctrl_ws) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.044117] (ctrl_ws) StderrLine: {'line': b'\n'}
+[2.050186] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ctrl_node::callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.050343] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:84:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<float>}) (long unsigned int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.050420] (ctrl_ws) StderrLine: {'line': b'   84 |    E(i,0)=msg_->data(i\x1b[01;31m\x1b[K)\x1b[m\x1b[K-msg->data(i);\n'}
+[2.050483] (ctrl_ws) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.050542] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:84:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<float>}) (long unsigned int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.050612] (ctrl_ws) StderrLine: {'line': b'   84 |    E(i,0)=msg_->data(i)-msg->data(i\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.050674] (ctrl_ws) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.058170] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:92:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.058330] (ctrl_ws) StderrLine: {'line': b'   92 |    ci\x1b[01;31m\x1b[K->\x1b[m\x1b[Kdata=U(j,0);\n'}
+[2.058399] (ctrl_ws) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.063492] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:93:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >::publish(std_msgs::msg::Float32MultiArray&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.063828] (ctrl_ws) StderrLine: {'line': b'   93 |    joints[j].publish(ci\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.063914] (ctrl_ws) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.063977] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.064041] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.064100] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.064157] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.064215] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.064272] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.064330] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.064387] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.064445] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.064503] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.064560] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.064617] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_NodeAlloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.064691] (ctrl_ws) StderrLine: {'line': b'  185 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(std::unique_ptr<MessageT, MessageDeleter> msg)\n'}
+[2.064748] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.064805] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<std_msgs::msg::Float32_<std::allocator<void> >, std::default_delete<std_msgs::msg::Float32_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.064867] (ctrl_ws) StderrLine: {'line': b'  185 |   publish(\x1b[01;36m\x1b[Kstd::unique_ptr<MessageT, MessageDeleter> msg\x1b[m\x1b[K)\n'}
+[2.064925] (ctrl_ws) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.064982] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065046] (ctrl_ws) StderrLine: {'line': b'  209 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const MessageT & msg)\n'}
+[2.065103] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.065197] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std_msgs::msg::Float32_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065263] (ctrl_ws) StderrLine: {'line': b'  209 |   publish(\x1b[01;36m\x1b[Kconst MessageT & msg\x1b[m\x1b[K)\n'}
+[2.065321] (ctrl_ws) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.065379] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065444] (ctrl_ws) StderrLine: {'line': b'  226 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const rcl_serialized_message_t & serialized_msg)\n'}
+[2.065503] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.065559] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rcl_serialized_message_t&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst rcutils_uint8_array_t&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.065633] (ctrl_ws) StderrLine: {'line': b'  226 |   publish(\x1b[01;36m\x1b[Kconst rcl_serialized_message_t & serialized_msg\x1b[m\x1b[K)\n'}
+[2.065690] (ctrl_ws) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.065747] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065806] (ctrl_ws) StderrLine: {'line': b'  232 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(const SerializedMessage & serialized_msg)\n'}
+[2.065864] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.065921] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::SerializedMessage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.065981] (ctrl_ws) StderrLine: {'line': b'  232 |   publish(\x1b[01;36m\x1b[Kconst SerializedMessage & serialized_msg\x1b[m\x1b[K)\n'}
+[2.066039] (ctrl_ws) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.066095] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.066154] (ctrl_ws) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kpublish\x1b[m\x1b[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)\n'}
+[2.066210] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.066267] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::LoanedMessage<std_msgs::msg::Float32_<std::allocator<void> >, std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.066326] (ctrl_ws) StderrLine: {'line': b'  246 |   publish(\x1b[01;36m\x1b[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg\x1b[m\x1b[K)\n'}
+[2.066384] (ctrl_ws) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.106039] (-) TimerEvent: {}
+[2.206347] (-) TimerEvent: {}
+[2.306662] (-) TimerEvent: {}
+[2.396471] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:65\x1b[m\x1b[K,\n'}
+[2.396693] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:62\x1b[m\x1b[K,\n'}
+[2.396765] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.396828] (ctrl_ws) StderrLine: {'line': b'/usr/include/c++/9/bits/stl_construct.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid std::_Construct(_T1*, _Args&& ...) [with _T1 = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.396906] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_uninitialized.h:545:18:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic _ForwardIterator std::__uninitialized_default_n_1<_TrivialValueType>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >*; _Size = long unsigned int; bool _TrivialValueType = false]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.396969] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_uninitialized.h:601:20:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >*; _Size = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397029] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_uninitialized.h:663:44:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[K_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, std::allocator<_Tp>&) [with _ForwardIterator = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >*; _Size = long unsigned int; _Tp = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397090] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:627:35:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::_M_default_append(std::vector<_Tp, _Alloc>::size_type) [with _Tp = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >; _Alloc = std::allocator<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397171] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:937:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid std::vector<_Tp, _Alloc>::resize(std::vector<_Tp, _Alloc>::size_type) [with _Tp = rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >; _Alloc = std::allocator<rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > > >; std::vector<_Tp, _Alloc>::size_type = long unsigned int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397239] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:25:19:\x1b[m\x1b[K   required from here\n'}
+[2.397298] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_construct.h:75:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >::Publisher()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.397356] (ctrl_ws) StderrLine: {'line': b'   75 |     { \x1b[01;31m\x1b[K::new(static_cast<void*>(__p)) _T1(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.397413] (ctrl_ws) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.397469] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31\x1b[m\x1b[K,\n'}
+[2.397527] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[2.397584] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.397641] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.397698] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.397755] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.397811] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.397872] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.397929] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.397985] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.398042] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.398098] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:73:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<MessageT, AllocatorT>::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = std_msgs::msg::Float32_<std::allocator<void> >; AllocatorT = std::allocator<void>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.398166] (ctrl_ws) StderrLine: {'line': b'   73 |   \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K(\n'}
+[2.398224] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398282] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:73:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 4 arguments, 0 provided\n'}
+[2.398339] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >::Publisher(const rclcpp::Publisher<std_msgs::msg::Float32_<std::allocator<void> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.398398] (ctrl_ws) StderrLine: {'line': b'   51 | class \x1b[01;36m\x1b[KPublisher\x1b[m\x1b[K : public PublisherBase\n'}
+[2.398455] (ctrl_ws) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.398511] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/publisher.hpp:51:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[2.406786] (-) TimerEvent: {}
+[2.507104] (-) TimerEvent: {}
+[2.607441] (-) TimerEvent: {}
+[2.707726] (-) TimerEvent: {}
+[2.791358] (ctrl_ws) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lqr_implement.dir/build.make:63: CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o] Error 1\n'}
+[2.791619] (ctrl_ws) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lqr_implement.dir/all] Error 2\n'}
+[2.791787] (ctrl_ws) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.793412] (ctrl_ws) CommandEnded: {'returncode': 2}
+[2.807846] (-) TimerEvent: {}
+[2.828405] (ctrl_ws) JobEnded: {'identifier': 'ctrl_ws', 'rc': 2}
+[2.838976] (-) EventReactorShutdown: {}

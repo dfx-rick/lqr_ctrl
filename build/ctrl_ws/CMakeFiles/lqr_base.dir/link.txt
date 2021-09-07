@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblqr_base.so -o liblqr_base.so CMakeFiles/lqr_base.dir/src/lqr.cpp.o 

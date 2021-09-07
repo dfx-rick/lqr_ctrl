@@ -1,0 +1,61 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[0.028s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.286s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.315s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.478s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.526s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.528s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.720s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.137s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.032s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.033s] -- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include
+[2.033s] -- Configured cppcheck exclude dirs and/or files: 
+[2.124s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.124s] -- Configured cpplint exclude dirs and/or files: 
+[2.136s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.165s] -- Added test 'lint_cmake' to check CMake code style
+[2.177s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.270s] -- Added test 'uncrustify' to check C / C++ code style
+[2.270s] -- Configured uncrustify additional arguments: 
+[2.282s] -- Added test 'xmllint' to check XML markup files
+[2.366s] -- Configuring done
+[2.424s] -- Generating done
+[2.428s] -- Build files have been written to: /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[2.436s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[2.441s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[2.510s] [ 50%] Built target lqr_base
+[2.710s] [100%] Built target lqr_implement
+[2.723s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[2.759s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[2.767s] -- Install configuration: "Release"
+[2.767s] -- Execute custom install script
+[2.768s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+[2.768s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+[2.768s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/script/irb140.lua
+[2.769s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/liblqr_base.so
+[2.769s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/lqr_implement
+[2.769s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.sh
+[2.769s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.dsv
+[2.770s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/package_run_dependencies/ctrl_ws
+[2.770s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/parent_prefix_path/ctrl_ws
+[2.770s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.sh
+[2.770s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.dsv
+[2.771s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.sh
+[2.771s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.dsv
+[2.771s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.bash
+[2.771s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.sh
+[2.772s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.zsh
+[2.772s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.dsv
+[2.772s] -- Symlinking: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv
+[2.782s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/packages/ctrl_ws
+[2.782s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.782s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_libraries-extras.cmake
+[2.782s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.783s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig.cmake
+[2.783s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig-version.cmake
+[2.783s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.xml
+[2.803s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/liblqr_base.so
+[2.806s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws

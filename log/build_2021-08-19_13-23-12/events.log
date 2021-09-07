@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.001162] (ctrl_ws) JobQueued: {'identifier': 'ctrl_ws', 'dependencies': OrderedDict()}
+[0.001749] (ctrl_ws) JobStarted: {'identifier': 'ctrl_ws'}
+[0.011323] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'cmake'}
+[0.012006] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'build'}
+[0.013028] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfx-rick/ctrl_ws/build/ctrl_ws', '--', '-j4', '-l4'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '5170'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:47040'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/5217,unix/rikin-linux-20:/tmp/.ICE-unix/5217'), ('INVOCATION_ID', '5820499cd20a4382b2f0ef773c57fdcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/826a935a_cb3f_4c21_9dd8_4d56f889f683'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.054064] (ctrl_ws) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lqr_implement\x1b[0m\n'}
+[0.063097] (ctrl_ws) StdoutLine: {'line': b'[ 50%] Built target lqr_base\n'}
+[0.078250] (ctrl_ws) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o\x1b[0m\n'}
+[0.099690] (-) TimerEvent: {}
+[0.200047] (-) TimerEvent: {}
+[0.300374] (-) TimerEvent: {}
+[0.400701] (-) TimerEvent: {}
+[0.501070] (-) TimerEvent: {}
+[0.601556] (-) TimerEvent: {}
+[0.701852] (-) TimerEvent: {}
+[0.802154] (-) TimerEvent: {}
+[0.902472] (-) TimerEvent: {}
+[1.002737] (-) TimerEvent: {}
+[1.103055] (-) TimerEvent: {}
+[1.203405] (-) TimerEvent: {}
+[1.303690] (-) TimerEvent: {}
+[1.403971] (-) TimerEvent: {}
+[1.504257] (-) TimerEvent: {}
+[1.604570] (-) TimerEvent: {}
+[1.704879] (-) TimerEvent: {}
+[1.805125] (-) TimerEvent: {}
+[1.905416] (-) TimerEvent: {}
+[1.985388] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:63:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.985564] (ctrl_ws) StderrLine: {'line': b'   63 |   std::vector<rclcpp::Publisher<std_msgs::msg::Float32> \x1b[01;31m\x1b[Kjoints\x1b[m\x1b[K;\n'}
+[1.985641] (ctrl_ws) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.985704] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:63:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[2.002721] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::ctrl_node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.002882] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:25:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.002965] (ctrl_ws) StderrLine: {'line': b'   25 |    \x1b[01;31m\x1b[Kjoints\x1b[m\x1b[K.resize(6);\n'}
+[2.003039] (ctrl_ws) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.005511] (-) TimerEvent: {}
+[2.012584] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:32:152:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::create_subscription<std_msgs::msg::Float32MultiArray>(const char [11], std::_Bind_helper<false, void (ctrl_node::*)(std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >), ctrl_node*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.012901] (ctrl_ws) StderrLine: {'line': b'   32 |    jointStatesub=this->create_subscription<std_msgs::msg::Float32MultiArray>("StateTopic", std::bind(&ctrl_node::callback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.013015] (ctrl_ws) StderrLine: {'line': b'      |                                                                                                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.013089] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.013150] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.013207] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.013264] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.013332] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.013395] (ctrl_ws) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.013452] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.013509] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.013566] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:32:152:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[2.013623] (ctrl_ws) StderrLine: {'line': b'   32 |    jointStatesub=this->create_subscription<std_msgs::msg::Float32MultiArray>("StateTopic", std::bind(&ctrl_node::callback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.013679] (ctrl_ws) StderrLine: {'line': b'      |                                                                                                                                                        \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.013735] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:33:153:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kctrl_node::create_subscription<std_msgs::msg::Float32MultiArray>(const char [9], std::_Bind_helper<false, void (ctrl_node::*)(std::shared_ptr<std_msgs::msg::Float32MultiArray_<std::allocator<void> > >), ctrl_node*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.013795] (ctrl_ws) StderrLine: {'line': b'   33 |    jointStatedes=this->create_subscription<std_msgs::msg::Float32MultiArray>("Desstate", std::bind(&ctrl_node::descallback, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.013865] (ctrl_ws) StderrLine: {'line': b'      |                                                                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.013922] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.013979] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.014040] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.014097] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:6\x1b[m\x1b[K:\n'}
+[2.014156] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.014215] (ctrl_ws) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[2.014271] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.014330] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.014387] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:33:153:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[2.014443] (ctrl_ws) StderrLine: {'line': b'   33 |    jointStatedes=this->create_subscription<std_msgs::msg::Float32MultiArray>("Desstate", std::bind(&ctrl_node::descallback, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.014500] (ctrl_ws) StderrLine: {'line': b'      |                                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.023382] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ctrl_node::callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.023614] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:80:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kjoints\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.023689] (ctrl_ws) StderrLine: {'line': b'   80 |   Eigen::MatrixXd U=Eigen::MatrixXd(\x1b[01;31m\x1b[Kjoints\x1b[m\x1b[K.size(),1);\n'}
+[2.023752] (ctrl_ws) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.023811] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:84:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<float>}) (long unsigned int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.023876] (ctrl_ws) StderrLine: {'line': b'   84 |    E(i,0)=msg_->data(i\x1b[01;31m\x1b[K)\x1b[m\x1b[K-msg->data(i);\n'}
+[2.023934] (ctrl_ws) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.023991] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:84:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for call to \xe2\x80\x98\x1b[01m\x1b[K(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type {aka std::vector<float>}) (long unsigned int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.024049] (ctrl_ws) StderrLine: {'line': b'   84 |    E(i,0)=msg_->data(i)-msg->data(i\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.024105] (ctrl_ws) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.043021] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:92:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, -1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[2.043328] (ctrl_ws) StderrLine: {'line': b'   92 |    ci.data=U(j,0\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.043403] (ctrl_ws) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.043466] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:72\x1b[m\x1b[K,\n'}
+[2.043525] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:62\x1b[m\x1b[K,\n'}
+[2.043582] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.043649] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = float; _Alloc = std::allocator<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043712] (ctrl_ws) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[2.043769] (ctrl_ws) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.043826] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, -1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<float>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.043886] (ctrl_ws) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[2.043944] (ctrl_ws) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.044000] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[2.044059] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:62\x1b[m\x1b[K,\n'}
+[2.044115] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.044173] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = float; _Alloc = std::allocator<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.044231] (ctrl_ws) StderrLine: {'line': b'  706 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[2.044287] (ctrl_ws) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.044343] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, -1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.044407] (ctrl_ws) StderrLine: {'line': b'  706 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[2.044464] (ctrl_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.044519] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = float; _Alloc = std::allocator<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.044576] (ctrl_ws) StderrLine: {'line': b'  727 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[2.044631] (ctrl_ws) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.044686] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[KEigen::DenseCoeffsBase<Eigen::Matrix<double, -1, -1>, 1>::Scalar\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<float>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.044746] (ctrl_ws) StderrLine: {'line': b'  727 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[2.044807] (ctrl_ws) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.105652] (-) TimerEvent: {}
+[2.205985] (-) TimerEvent: {}
+[2.306316] (-) TimerEvent: {}
+[2.406638] (-) TimerEvent: {}
+[2.506918] (-) TimerEvent: {}
+[2.607209] (-) TimerEvent: {}
+[2.707490] (-) TimerEvent: {}
+[2.750366] (ctrl_ws) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lqr_implement.dir/build.make:63: CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o] Error 1\n'}
+[2.750604] (ctrl_ws) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lqr_implement.dir/all] Error 2\n'}
+[2.750718] (ctrl_ws) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.752791] (ctrl_ws) CommandEnded: {'returncode': 2}
+[2.788775] (ctrl_ws) JobEnded: {'identifier': 'ctrl_ws', 'rc': 2}
+[2.799606] (-) EventReactorShutdown: {}

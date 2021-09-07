@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/lqr.h
+eigen3/Eigen/Core
+-
+eigen3/Eigen/src/Core/Matrix.h
+-
+iostream
+-
+memory
+-
+eigen3/Eigen/Eigenvalues
+../../include/eigen3/Eigen/Eigenvalues
+vector
+-
+
+/home/dfx-rick/ctrl_ws/src/lqr.cpp
+lqr.h
+/home/dfx-rick/ctrl_ws/src/lqr.h
+eigen3/Eigen/src/Core/Matrix.h
+-
+eigen3/Eigen/Core
+-
+eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+-
+eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+-
+

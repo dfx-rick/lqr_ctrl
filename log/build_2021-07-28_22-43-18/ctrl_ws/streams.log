@@ -1,0 +1,25 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[1.012s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K In constructor ‘[01m[Klqr::lqr(lss&, std::vector<double>, std::vector<double>)[m[K’:
+[1.013s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[KNumoInputs[m[K’ was not declared in this scope; did you mean ‘[01m[KNumInputs[m[K’?
+[1.013s]    29 |    R(i,j)=R_[i*[01;31m[KNumoInputs[m[K+j];
+[1.013s]       |                [01;31m[K^~~~~~~~~~[m[K
+[1.013s]       |                [32m[KNumInputs[m[K
+[1.013s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K At global scope:
+[1.013s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KupdateK[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[1.013s]    38 | lqr::updateK(lss &system_[01;31m[K)[m[K{
+[1.014s]       |                          [01;31m[K^[m[K
+[1.014s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint lqr::updateK(lss&)[m[K’
+[1.014s]    38 | [01;31m[Klqr[m[K::updateK(lss &system_){
+[1.014s]       | [01;31m[K^~~[m[K
+[1.014s] In file included from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[1.014s] [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:30:7:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid lqr::updateK(lss&)[m[K’
+[1.014s]    30 |  void [01;36m[KupdateK[m[K(lss &system_);
+[1.014s]       |       [01;36m[K^~~~~~~[m[K
+[1.014s] [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass lqr[m[K’ defined here
+[1.015s]    20 | class [01;36m[Klqr[m[K{
+[1.015s]       |       [01;36m[K^~~[m[K
+[1.105s] make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+[1.105s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+[1.105s] make: *** [Makefile:141: all] Error 2
+[1.107s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

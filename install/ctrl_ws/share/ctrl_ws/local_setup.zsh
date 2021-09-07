@@ -1,0 +1,1 @@
+/home/dfx-rick/ctrl_ws/build/ctrl_ws/ament_cmake_environment_hooks/local_setup.zsh

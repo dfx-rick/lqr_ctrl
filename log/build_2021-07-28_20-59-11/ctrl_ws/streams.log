@@ -1,0 +1,54 @@
+[0.071s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[2.029s] -- The C compiler identification is GNU 9.3.0
+[2.549s] -- The CXX compiler identification is GNU 9.3.0
+[2.595s] -- Check for working C compiler: /usr/bin/cc
+[2.659s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.661s] -- Detecting C compiler ABI info
+[2.736s] -- Detecting C compiler ABI info - done
+[2.748s] -- Detecting C compile features
+[2.754s] -- Detecting C compile features - done
+[2.769s] -- Check for working CXX compiler: /usr/bin/c++
+[2.839s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.840s] -- Detecting CXX compiler ABI info
+[2.913s] -- Detecting CXX compiler ABI info - done
+[2.924s] -- Detecting CXX compile features
+[2.925s] -- Detecting CXX compile features - done
+[2.990s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.212s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.527s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.953s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.537s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.570s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.909s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.919s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.927s] -- Looking for pthread.h
+[6.233s] -- Looking for pthread.h - found
+[6.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.353s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.353s] -- Looking for pthread_create in pthreads
+[6.415s] -- Looking for pthread_create in pthreads - not found
+[6.416s] -- Looking for pthread_create in pthread
+[6.479s] -- Looking for pthread_create in pthread - found
+[6.480s] -- Found Threads: TRUE  
+[7.006s] CMake Error at CMakeLists.txt:33 (install):
+[7.007s]   install TARGETS given target "lqrtest" which does not exist.
+[7.008s] 
+[7.008s] 
+[7.060s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.347s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.361s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.361s] -- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include
+[7.362s] -- Configured cppcheck exclude dirs and/or files: 
+[7.369s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.369s] -- Configured cpplint exclude dirs and/or files: 
+[7.372s] -- Added test 'lint_cmake' to check CMake code style
+[7.379s] -- Added test 'uncrustify' to check C / C++ code style
+[7.379s] -- Configured uncrustify additional arguments: 
+[7.380s] -- Added test 'xmllint' to check XML markup files
+[7.391s] -- Configuring incomplete, errors occurred!
+[7.391s] See also "/home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/CMakeOutput.log".
+[7.391s] See also "/home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/CMakeError.log".
+[7.396s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws

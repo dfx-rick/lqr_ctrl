@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.052s] [35m[1mScanning dependencies of target lqr_core[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[1.078s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K In member function ‘[01m[Kvoid lqr::updateK(lss&)[m[K’:
+[1.078s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:47:30:[m[K [01;31m[Kerror: [m[K‘[01m[KEigen::Eigen[m[K’ has not been declared
+[1.078s]    47 |  Eigen::MatrixXcd ev= Eigen::[01;31m[KEigen[m[K::MatrixXcd.zeros(2*NumofStates, NumofStates);
+[1.079s]       |                              [01;31m[K^~~~~[m[K
+[1.079s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:53:14:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KEigen::Matrix<std::complex<double>, -1, -1>::cols(int&)[m[K’
+[1.079s]    53 |     ev.cols(j[01;31m[K)[m[K=es.eigenvectors().block(0,i,2*NumofStates, 1);
+[1.079s]       |              [01;31m[K^[m[K
+[1.079s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:457[m[K,
+[1.079s]                  from [01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:3[m[K,
+[1.079s]                  from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[1.079s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KEigen::Index Eigen::PlainObjectBase<Derived>::cols() const [with Derived = Eigen::Matrix<std::complex<double>, -1, -1>; Eigen::Index = long int][m[K’
+[1.079s]   153 |     EIGEN_STRONG_INLINE Index [01;36m[Kcols[m[K() const { return m_storage.cols(); }
+[1.079s]       |                               [01;36m[K^~~~[m[K
+[1.079s] [01m[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[1.088s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:61:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Ku1[m[K’
+[1.088s]    61 |   [01;31m[Ku1[m[K=ev.block(0,0,NumofStates, NumofStates);
+[1.088s]       |   [01;31m[K^~[m[K
+[1.089s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ku2[m[K’ was not declared in this scope; did you mean ‘[01m[Ku1[m[K’?
+[1.089s]    62 |   [01;31m[Ku2[m[K-ev.block(NumofStates,0,NumofStates, NumofStates);
+[1.089s]       |   [01;31m[K^~[m[K
+[1.089s]       |   [32m[Ku1[m[K
+[1.090s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:64:3:[m[K [01;31m[Kerror: [m[K‘[01m[KP[m[K’ was not declared in this scope
+[1.090s]    64 |   [01;31m[KP[m[K=(u2*u1.inverse()).real();
+[1.090s]       |   [01;31m[K^[m[K
+[1.098s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kk[m[K’ was not declared in this scope
+[1.098s]    66 |   [01;31m[Kk[m[K= -(R.inverse()*B.transpose()*P);
+[1.098s]       |   [01;31m[K^[m[K
+[4.140s] make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+[4.140s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+[4.140s] make: *** [Makefile:141: all] Error 2
+[4.142s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

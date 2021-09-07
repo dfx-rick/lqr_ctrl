@@ -1,0 +1,12 @@
+[0.014s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.064s] [35m[1mScanning dependencies of target lqr_implement[0m
+[0.076s] [ 50%] Built target lqr_base
+[0.096s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o[0m
+[2.301s] [01m[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:[m[K In member function ‘[01m[Kvoid ctrl_node::callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.301s] [01m[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:93:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto ci[m[K’ has no initializer
+[2.301s]    93 |     [01;31m[Kauto[m[K ci;
+[2.302s]       |     [01;31m[K^~~~[m[K
+[3.822s] make[2]: *** [CMakeFiles/lqr_implement.dir/build.make:63: CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o] Error 1
+[3.823s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lqr_implement.dir/all] Error 2
+[3.823s] make: *** [Makefile:141: all] Error 2
+[3.827s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

@@ -1,0 +1,111 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[0.022s] Re-run cmake no build system arguments
+[0.028s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.050s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.249s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.256s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.294s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.415s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.622s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.689s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.773s] -- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include
+[0.773s] -- Configured cppcheck exclude dirs and/or files: 
+[0.857s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.857s] -- Configured cpplint exclude dirs and/or files: 
+[0.868s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.888s] -- Added test 'lint_cmake' to check CMake code style
+[0.899s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.982s] -- Added test 'uncrustify' to check C / C++ code style
+[0.982s] -- Configured uncrustify additional arguments: 
+[0.992s] -- Added test 'xmllint' to check XML markup files
+[0.998s] -- Configuring done
+[1.006s] -- Generating done
+[1.007s] -- Build files have been written to: /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[1.016s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[1.019s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws --clean-first
+[1.036s] /usr/bin/make -f CMakeFiles/Makefile2 clean
+[1.037s] make[1]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.037s] /usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/clean
+[1.039s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.039s] /usr/bin/cmake -P CMakeFiles/lqr_implement.dir/cmake_clean.cmake
+[1.049s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.049s] /usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/clean
+[1.050s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.050s] /usr/bin/cmake -P CMakeFiles/lqr_base.dir/cmake_clean.cmake
+[1.058s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.059s] /usr/bin/make -f CMakeFiles/ctrl_ws_uninstall.dir/build.make CMakeFiles/ctrl_ws_uninstall.dir/clean
+[1.060s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.060s] /usr/bin/cmake -P CMakeFiles/ctrl_ws_uninstall.dir/cmake_clean.cmake
+[1.068s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.068s] /usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean
+[1.070s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.070s] /usr/bin/cmake -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+[1.080s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.080s] make[1]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.091s] /usr/bin/cmake -S/home/dfx-rick/ctrl_ws -B/home/dfx-rick/ctrl_ws/build/ctrl_ws --check-build-system CMakeFiles/Makefile.cmake 0
+[1.102s] /usr/bin/cmake -E cmake_progress_start /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/progress.marks
+[1.111s] /usr/bin/make -f CMakeFiles/Makefile2 all
+[1.112s] make[1]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.112s] /usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/depend
+[1.113s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.113s] cd /home/dfx-rick/ctrl_ws/build/ctrl_ws && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/lqr_base.dir/DependInfo.cmake --color=
+[1.122s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.122s] /usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/build
+[1.123s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[1.131s] [ 25%] [32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o[0m
+[1.132s] /usr/bin/c++  -Dlqr_base_EXPORTS -I/home/dfx-rick/ctrl_ws/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/lqr_base.dir/src/lqr.cpp.o -c /home/dfx-rick/ctrl_ws/src/lqr.cpp
+[11.794s] [ 50%] [32m[1mLinking CXX shared library liblqr_base.so[0m
+[11.795s] /usr/bin/cmake -E cmake_link_script CMakeFiles/lqr_base.dir/link.txt --verbose=1
+[11.802s] /usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblqr_base.so -o liblqr_base.so CMakeFiles/lqr_base.dir/src/lqr.cpp.o 
+[11.877s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[11.886s] [ 50%] Built target lqr_base
+[11.887s] /usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/depend
+[11.889s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[11.889s] cd /home/dfx-rick/ctrl_ws/build/ctrl_ws && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/lqr_implement.dir/DependInfo.cmake --color=
+[11.898s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[11.898s] /usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/build
+[11.903s] make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[11.911s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o[0m
+[11.912s] /usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/dfx-rick/ctrl_ws/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o -c /home/dfx-rick/ctrl_ws/src/ctrl_node.cpp
+[20.191s] [100%] [32m[1mLinking CXX executable lqr_implement[0m
+[20.192s] /usr/bin/cmake -E cmake_link_script CMakeFiles/lqr_implement.dir/link.txt --verbose=1
+[20.199s] /usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o  -o lqr_implement  -Wl,-rpath,/opt/ros/foxy/lib:/home/dfx-rick/ctrl_ws/build/ctrl_ws /opt/ros/foxy/lib/librclcpp.so liblqr_base.so /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcutils.so -ldl /opt/ros/foxy/lib/libtracetools.so 
+[20.329s] make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[20.338s] [100%] Built target lqr_implement
+[20.339s] make[1]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'
+[20.339s] /usr/bin/cmake -E cmake_progress_start /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles 0
+[20.351s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws --clean-first
+[20.396s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[20.405s] -- Install configuration: "Release"
+[20.406s] -- Execute custom install script
+[20.406s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+[20.406s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+[20.407s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/script/irb140.lua
+[20.407s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/liblqr_base.so
+[20.408s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/lqr_implement
+[20.408s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.sh
+[20.408s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.dsv
+[20.409s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/package_run_dependencies/ctrl_ws
+[20.409s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/parent_prefix_path/ctrl_ws
+[20.409s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.sh
+[20.410s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.dsv
+[20.410s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.sh
+[20.410s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.dsv
+[20.411s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.bash
+[20.411s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.sh
+[20.411s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.zsh
+[20.412s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.dsv
+[20.412s] -- Symlinking: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv
+[20.422s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/packages/ctrl_ws
+[20.423s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.423s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_libraries-extras.cmake
+[20.423s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.424s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig.cmake
+[20.424s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig-version.cmake
+[20.424s] -- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.xml
+[20.424s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/liblqr_base.so
+[20.428s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws

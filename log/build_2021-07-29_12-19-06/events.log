@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (ctrl_ws) JobQueued: {'identifier': 'ctrl_ws', 'dependencies': OrderedDict()}
+[0.000162] (ctrl_ws) JobStarted: {'identifier': 'ctrl_ws'}
+[0.009858] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'cmake'}
+[0.010254] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'build'}
+[0.010907] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfx-rick/ctrl_ws/build/ctrl_ws', '--', '-j4', '-l4'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '7660'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '7469'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:48119'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/7705,unix/rikin-linux-20:/tmp/.ICE-unix/7705'), ('INVOCATION_ID', '4430916cd067473888fbc8a524228df0'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d088b2a_f754_4769_a735_4b6c96a669cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.051405] (ctrl_ws) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lqr_core\x1b[0m\n'}
+[0.061186] (ctrl_ws) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o\x1b[0m\n'}
+[0.099241] (-) TimerEvent: {}
+[0.199602] (-) TimerEvent: {}
+[0.299928] (-) TimerEvent: {}
+[0.400238] (-) TimerEvent: {}
+[0.500539] (-) TimerEvent: {}
+[0.600835] (-) TimerEvent: {}
+[0.701254] (-) TimerEvent: {}
+[0.801656] (-) TimerEvent: {}
+[0.902000] (-) TimerEvent: {}
+[1.002297] (-) TimerEvent: {}
+[1.078335] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid lqr::updateK(lss&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.078529] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:47:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::Eigen\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.078624] (ctrl_ws) StderrLine: {'line': b'   47 |  Eigen::MatrixXcd ev= Eigen::\x1b[01;31m\x1b[KEigen\x1b[m\x1b[K::MatrixXcd.zeros(2*NumofStates, NumofStates);\n'}
+[1.078695] (ctrl_ws) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.078892] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:53:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KEigen::Matrix<std::complex<double>, -1, -1>::cols(int&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.078963] (ctrl_ws) StderrLine: {'line': b'   53 |     ev.cols(j\x1b[01;31m\x1b[K)\x1b[m\x1b[K=es.eigenvectors().block(0,i,2*NumofStates, 1);\n'}
+[1.079029] (ctrl_ws) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.079117] (ctrl_ws) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:457\x1b[m\x1b[K,\n'}
+[1.079226] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/include/lqr.h:3\x1b[m\x1b[K,\n'}
+[1.079326] (ctrl_ws) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1\x1b[m\x1b[K:\n'}
+[1.079389] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KEigen::Index Eigen::PlainObjectBase<Derived>::cols() const [with Derived = Eigen::Matrix<std::complex<double>, -1, -1>; Eigen::Index = long int]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.079451] (ctrl_ws) StderrLine: {'line': b'  153 |     EIGEN_STRONG_INLINE Index \x1b[01;36m\x1b[Kcols\x1b[m\x1b[K() const { return m_storage.cols(); }\n'}
+[1.079508] (ctrl_ws) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.079565] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:153:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[1.087907] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:61:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Ku1\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.088068] (ctrl_ws) StderrLine: {'line': b'   61 |   \x1b[01;31m\x1b[Ku1\x1b[m\x1b[K=ev.block(0,0,NumofStates, NumofStates);\n'}
+[1.088136] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.089149] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:62:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ku2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ku1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.089283] (ctrl_ws) StderrLine: {'line': b'   62 |   \x1b[01;31m\x1b[Ku2\x1b[m\x1b[K-ev.block(NumofStates,0,NumofStates, NumofStates);\n'}
+[1.089350] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.089410] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ku1\x1b[m\x1b[K\n'}
+[1.090280] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:64:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.090403] (ctrl_ws) StderrLine: {'line': b'   64 |   \x1b[01;31m\x1b[KP\x1b[m\x1b[K=(u2*u1.inverse()).real();\n'}
+[1.090471] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.097889] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:66:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kk\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.098047] (ctrl_ws) StderrLine: {'line': b'   66 |   \x1b[01;31m\x1b[Kk\x1b[m\x1b[K= -(R.inverse()*B.transpose()*P);\n'}
+[1.098115] (ctrl_ws) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.102416] (-) TimerEvent: {}
+[1.202676] (-) TimerEvent: {}
+[1.302971] (-) TimerEvent: {}
+[1.403254] (-) TimerEvent: {}
+[1.503526] (-) TimerEvent: {}
+[1.603778] (-) TimerEvent: {}
+[1.704038] (-) TimerEvent: {}
+[1.804291] (-) TimerEvent: {}
+[1.904544] (-) TimerEvent: {}
+[2.004838] (-) TimerEvent: {}
+[2.105130] (-) TimerEvent: {}
+[2.205421] (-) TimerEvent: {}
+[2.305677] (-) TimerEvent: {}
+[2.405969] (-) TimerEvent: {}
+[2.506287] (-) TimerEvent: {}
+[2.606581] (-) TimerEvent: {}
+[2.706838] (-) TimerEvent: {}
+[2.807140] (-) TimerEvent: {}
+[2.907388] (-) TimerEvent: {}
+[3.007684] (-) TimerEvent: {}
+[3.107976] (-) TimerEvent: {}
+[3.208259] (-) TimerEvent: {}
+[3.308547] (-) TimerEvent: {}
+[3.408831] (-) TimerEvent: {}
+[3.509127] (-) TimerEvent: {}
+[3.609424] (-) TimerEvent: {}
+[3.709689] (-) TimerEvent: {}
+[3.809973] (-) TimerEvent: {}
+[3.910256] (-) TimerEvent: {}
+[4.010549] (-) TimerEvent: {}
+[4.110856] (-) TimerEvent: {}
+[4.139655] (ctrl_ws) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1\n'}
+[4.139878] (ctrl_ws) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2\n'}
+[4.140001] (ctrl_ws) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.141549] (ctrl_ws) CommandEnded: {'returncode': 2}
+[4.169929] (ctrl_ws) JobEnded: {'identifier': 'ctrl_ws', 'rc': 2}
+[4.182271] (-) EventReactorShutdown: {}

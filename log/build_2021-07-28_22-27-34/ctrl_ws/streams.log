@@ -1,0 +1,11 @@
+[0.011s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.050s] [35m[1mScanning dependencies of target lqr_core[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[0.180s] [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Keigen3/Eigen/src/EigenValues/ComplexEigenSolver.h: No such file or directory
+[0.181s]     3 | #include [01;31m[K<eigen3/Eigen/src/EigenValues/ComplexEigenSolver.h>[m[K
+[0.181s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.181s] compilation terminated.
+[0.183s] make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+[0.183s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+[0.183s] make: *** [Makefile:141: all] Error 2
+[0.184s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

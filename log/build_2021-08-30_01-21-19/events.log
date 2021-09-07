@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.001932] (ctrl_ws) JobQueued: {'identifier': 'ctrl_ws', 'dependencies': OrderedDict()}
+[0.001993] (ctrl_ws) JobStarted: {'identifier': 'ctrl_ws'}
+[0.011845] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'cmake'}
+[0.012982] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '/home/dfx-rick/ctrl_ws', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '9139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8945'), ('MAKEFLAGS', '-j1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:50391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dfx-rick/home/dfx-rick/Downloads/VREP'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/bin:/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/9181,unix/rikin-linux-20:/tmp/.ICE-unix/9181'), ('INVOCATION_ID', '2afbfdc30fac4a6e932c0ad2f0cadc02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4efe56ac_594e_45d5_a1b1_fb2fa6045821'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.580'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('VERBOSE', '1'), ('CMAKE_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy')]), 'shell': False}
+[0.023814] (ctrl_ws) StdoutLine: {'line': b'Re-run cmake no build system arguments\n'}
+[0.029770] (ctrl_ws) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.052332] (ctrl_ws) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099444] (-) TimerEvent: {}
+[0.199751] (-) TimerEvent: {}
+[0.250576] (ctrl_ws) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.258121] (ctrl_ws) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.292711] (ctrl_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.296194] (ctrl_ws) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299834] (-) TimerEvent: {}
+[0.400124] (-) TimerEvent: {}
+[0.416647] (ctrl_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.470787] (ctrl_ws) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.472238] (ctrl_ws) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500245] (-) TimerEvent: {}
+[0.600594] (-) TimerEvent: {}
+[0.623601] (ctrl_ws) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.691286] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.700700] (-) TimerEvent: {}
+[0.774382] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.774884] (ctrl_ws) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include\n'}
+[0.775000] (ctrl_ws) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.800841] (-) TimerEvent: {}
+[0.858470] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.858667] (ctrl_ws) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.869685] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.889914] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.900978] (-) TimerEvent: {}
+[0.901160] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.983732] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.983985] (ctrl_ws) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.994128] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.999575] (ctrl_ws) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.001054] (-) TimerEvent: {}
+[1.007573] (ctrl_ws) StdoutLine: {'line': b'-- Generating done\n'}
+[1.009231] (ctrl_ws) StdoutLine: {'line': b'-- Build files have been written to: /home/dfx-rick/ctrl_ws/build/ctrl_ws\n'}
+[1.017687] (ctrl_ws) CommandEnded: {'returncode': 0}
+[1.018395] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'build'}
+[1.019237] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfx-rick/ctrl_ws/build/ctrl_ws', '--clean-first'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '9139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8945'), ('MAKEFLAGS', '-j1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:50391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dfx-rick/home/dfx-rick/Downloads/VREP'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/bin:/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/9181,unix/rikin-linux-20:/tmp/.ICE-unix/9181'), ('INVOCATION_ID', '2afbfdc30fac4a6e932c0ad2f0cadc02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4efe56ac_594e_45d5_a1b1_fb2fa6045821'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.580'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('VERBOSE', '1'), ('CMAKE_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy')]), 'shell': False}
+[1.038299] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 clean\n'}
+[1.039221] (ctrl_ws) StdoutLine: {'line': b"make[1]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.039350] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/clean\n'}
+[1.040909] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.041111] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -P CMakeFiles/lqr_implement.dir/cmake_clean.cmake\n'}
+[1.050683] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.050912] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/clean\n'}
+[1.051756] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.051881] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -P CMakeFiles/lqr_base.dir/cmake_clean.cmake\n'}
+[1.060339] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.060565] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/ctrl_ws_uninstall.dir/build.make CMakeFiles/ctrl_ws_uninstall.dir/clean\n'}
+[1.061466] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.061644] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -P CMakeFiles/ctrl_ws_uninstall.dir/cmake_clean.cmake\n'}
+[1.069831] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.070232] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/clean\n'}
+[1.071811] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.072174] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -P CMakeFiles/uninstall.dir/cmake_clean.cmake\n'}
+[1.082078] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.082290] (ctrl_ws) StdoutLine: {'line': b"make[1]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.092815] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -S/home/dfx-rick/ctrl_ws -B/home/dfx-rick/ctrl_ws/build/ctrl_ws --check-build-system CMakeFiles/Makefile.cmake 0\n'}
+[1.101190] (-) TimerEvent: {}
+[1.103920] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/progress.marks\n'}
+[1.112997] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/Makefile2 all\n'}
+[1.114055] (ctrl_ws) StdoutLine: {'line': b"make[1]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.114189] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/depend\n'}
+[1.114940] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.115053] (ctrl_ws) StdoutLine: {'line': b'cd /home/dfx-rick/ctrl_ws/build/ctrl_ws && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/lqr_base.dir/DependInfo.cmake --color=\n'}
+[1.123798] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.124014] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_base.dir/build.make CMakeFiles/lqr_base.dir/build\n'}
+[1.124859] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[1.132850] (ctrl_ws) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o\x1b[0m\n'}
+[1.133549] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/c++  -Dlqr_base_EXPORTS -I/home/dfx-rick/ctrl_ws/include  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/lqr_base.dir/src/lqr.cpp.o -c /home/dfx-rick/ctrl_ws/src/lqr.cpp\n'}
+[1.201318] (-) TimerEvent: {}
+[1.301625] (-) TimerEvent: {}
+[1.401964] (-) TimerEvent: {}
+[1.502306] (-) TimerEvent: {}
+[1.602626] (-) TimerEvent: {}
+[1.702911] (-) TimerEvent: {}
+[1.803210] (-) TimerEvent: {}
+[1.903540] (-) TimerEvent: {}
+[2.003870] (-) TimerEvent: {}
+[2.104166] (-) TimerEvent: {}
+[2.204447] (-) TimerEvent: {}
+[2.304770] (-) TimerEvent: {}
+[2.405108] (-) TimerEvent: {}
+[2.505419] (-) TimerEvent: {}
+[2.605736] (-) TimerEvent: {}
+[2.706034] (-) TimerEvent: {}
+[2.806329] (-) TimerEvent: {}
+[2.906625] (-) TimerEvent: {}
+[3.006923] (-) TimerEvent: {}
+[3.107219] (-) TimerEvent: {}
+[3.207510] (-) TimerEvent: {}
+[3.307820] (-) TimerEvent: {}
+[3.408104] (-) TimerEvent: {}
+[3.508392] (-) TimerEvent: {}
+[3.608684] (-) TimerEvent: {}
+[3.708984] (-) TimerEvent: {}
+[3.809276] (-) TimerEvent: {}
+[3.909577] (-) TimerEvent: {}
+[4.009860] (-) TimerEvent: {}
+[4.110147] (-) TimerEvent: {}
+[4.210406] (-) TimerEvent: {}
+[4.310736] (-) TimerEvent: {}
+[4.411040] (-) TimerEvent: {}
+[4.511338] (-) TimerEvent: {}
+[4.611647] (-) TimerEvent: {}
+[4.711967] (-) TimerEvent: {}
+[4.812255] (-) TimerEvent: {}
+[4.912505] (-) TimerEvent: {}
+[5.012790] (-) TimerEvent: {}
+[5.113083] (-) TimerEvent: {}
+[5.213411] (-) TimerEvent: {}
+[5.313993] (-) TimerEvent: {}
+[5.414291] (-) TimerEvent: {}
+[5.514549] (-) TimerEvent: {}
+[5.614845] (-) TimerEvent: {}
+[5.715167] (-) TimerEvent: {}
+[5.815430] (-) TimerEvent: {}
+[5.915737] (-) TimerEvent: {}
+[6.016000] (-) TimerEvent: {}
+[6.116256] (-) TimerEvent: {}
+[6.216547] (-) TimerEvent: {}
+[6.316852] (-) TimerEvent: {}
+[6.417136] (-) TimerEvent: {}
+[6.517464] (-) TimerEvent: {}
+[6.617778] (-) TimerEvent: {}
+[6.718061] (-) TimerEvent: {}
+[6.818350] (-) TimerEvent: {}
+[6.918640] (-) TimerEvent: {}
+[7.018947] (-) TimerEvent: {}
+[7.119263] (-) TimerEvent: {}
+[7.219547] (-) TimerEvent: {}
+[7.319862] (-) TimerEvent: {}
+[7.420199] (-) TimerEvent: {}
+[7.520523] (-) TimerEvent: {}
+[7.620820] (-) TimerEvent: {}
+[7.721116] (-) TimerEvent: {}
+[7.821406] (-) TimerEvent: {}
+[7.921694] (-) TimerEvent: {}
+[8.021985] (-) TimerEvent: {}
+[8.122244] (-) TimerEvent: {}
+[8.222532] (-) TimerEvent: {}
+[8.322841] (-) TimerEvent: {}
+[8.423253] (-) TimerEvent: {}
+[8.523570] (-) TimerEvent: {}
+[8.623935] (-) TimerEvent: {}
+[8.724232] (-) TimerEvent: {}
+[8.824669] (-) TimerEvent: {}
+[8.925469] (-) TimerEvent: {}
+[9.025805] (-) TimerEvent: {}
+[9.126122] (-) TimerEvent: {}
+[9.226421] (-) TimerEvent: {}
+[9.326684] (-) TimerEvent: {}
+[9.427003] (-) TimerEvent: {}
+[9.527339] (-) TimerEvent: {}
+[9.627658] (-) TimerEvent: {}
+[9.727977] (-) TimerEvent: {}
+[9.828232] (-) TimerEvent: {}
+[9.928558] (-) TimerEvent: {}
+[10.028850] (-) TimerEvent: {}
+[10.129172] (-) TimerEvent: {}
+[10.229492] (-) TimerEvent: {}
+[10.329883] (-) TimerEvent: {}
+[10.430402] (-) TimerEvent: {}
+[10.530708] (-) TimerEvent: {}
+[10.630976] (-) TimerEvent: {}
+[10.731246] (-) TimerEvent: {}
+[10.831613] (-) TimerEvent: {}
+[10.931863] (-) TimerEvent: {}
+[11.032129] (-) TimerEvent: {}
+[11.132451] (-) TimerEvent: {}
+[11.232876] (-) TimerEvent: {}
+[11.333631] (-) TimerEvent: {}
+[11.433919] (-) TimerEvent: {}
+[11.534203] (-) TimerEvent: {}
+[11.634513] (-) TimerEvent: {}
+[11.734854] (-) TimerEvent: {}
+[11.795703] (ctrl_ws) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library liblqr_base.so\x1b[0m\n'}
+[11.796516] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/lqr_base.dir/link.txt --verbose=1\n'}
+[11.803644] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,liblqr_base.so -o liblqr_base.so CMakeFiles/lqr_base.dir/src/lqr.cpp.o \n'}
+[11.835014] (-) TimerEvent: {}
+[11.878606] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[11.887989] (ctrl_ws) StdoutLine: {'line': b'[ 50%] Built target lqr_base\n'}
+[11.888834] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/depend\n'}
+[11.890623] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[11.890740] (ctrl_ws) StdoutLine: {'line': b'cd /home/dfx-rick/ctrl_ws/build/ctrl_ws && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/lqr_implement.dir/DependInfo.cmake --color=\n'}
+[11.900218] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[11.900422] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/make -f CMakeFiles/lqr_implement.dir/build.make CMakeFiles/lqr_implement.dir/build\n'}
+[11.904965] (ctrl_ws) StdoutLine: {'line': b"make[2]: Entering directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[11.913089] (ctrl_ws) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o\x1b[0m\n'}
+[11.913997] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/c++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -DSPDLOG_COMPILED_LIB -I/home/dfx-rick/ctrl_ws/include -isystem /opt/ros/foxy/include  -O3 -DNDEBUG   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o -c /home/dfx-rick/ctrl_ws/src/ctrl_node.cpp\n'}
+[11.935142] (-) TimerEvent: {}
+[12.035498] (-) TimerEvent: {}
+[12.135797] (-) TimerEvent: {}
+[12.236143] (-) TimerEvent: {}
+[12.336541] (-) TimerEvent: {}
+[12.436840] (-) TimerEvent: {}
+[12.537149] (-) TimerEvent: {}
+[12.637510] (-) TimerEvent: {}
+[12.737801] (-) TimerEvent: {}
+[12.838040] (-) TimerEvent: {}
+[12.938342] (-) TimerEvent: {}
+[13.038683] (-) TimerEvent: {}
+[13.138967] (-) TimerEvent: {}
+[13.239244] (-) TimerEvent: {}
+[13.339527] (-) TimerEvent: {}
+[13.439824] (-) TimerEvent: {}
+[13.540123] (-) TimerEvent: {}
+[13.640417] (-) TimerEvent: {}
+[13.740703] (-) TimerEvent: {}
+[13.841015] (-) TimerEvent: {}
+[13.941355] (-) TimerEvent: {}
+[14.041639] (-) TimerEvent: {}
+[14.141953] (-) TimerEvent: {}
+[14.242253] (-) TimerEvent: {}
+[14.342577] (-) TimerEvent: {}
+[14.442866] (-) TimerEvent: {}
+[14.543160] (-) TimerEvent: {}
+[14.643458] (-) TimerEvent: {}
+[14.743747] (-) TimerEvent: {}
+[14.843993] (-) TimerEvent: {}
+[14.944264] (-) TimerEvent: {}
+[15.044576] (-) TimerEvent: {}
+[15.144872] (-) TimerEvent: {}
+[15.245162] (-) TimerEvent: {}
+[15.345489] (-) TimerEvent: {}
+[15.445813] (-) TimerEvent: {}
+[15.546157] (-) TimerEvent: {}
+[15.646498] (-) TimerEvent: {}
+[15.746814] (-) TimerEvent: {}
+[15.847182] (-) TimerEvent: {}
+[15.947701] (-) TimerEvent: {}
+[16.048003] (-) TimerEvent: {}
+[16.148328] (-) TimerEvent: {}
+[16.248668] (-) TimerEvent: {}
+[16.348986] (-) TimerEvent: {}
+[16.449289] (-) TimerEvent: {}
+[16.549618] (-) TimerEvent: {}
+[16.649954] (-) TimerEvent: {}
+[16.750293] (-) TimerEvent: {}
+[16.850620] (-) TimerEvent: {}
+[16.950918] (-) TimerEvent: {}
+[17.051221] (-) TimerEvent: {}
+[17.151546] (-) TimerEvent: {}
+[17.251919] (-) TimerEvent: {}
+[17.352169] (-) TimerEvent: {}
+[17.452446] (-) TimerEvent: {}
+[17.552801] (-) TimerEvent: {}
+[17.653128] (-) TimerEvent: {}
+[17.753460] (-) TimerEvent: {}
+[17.853772] (-) TimerEvent: {}
+[17.954055] (-) TimerEvent: {}
+[18.054370] (-) TimerEvent: {}
+[18.154661] (-) TimerEvent: {}
+[18.254967] (-) TimerEvent: {}
+[18.355282] (-) TimerEvent: {}
+[18.455595] (-) TimerEvent: {}
+[18.555977] (-) TimerEvent: {}
+[18.656222] (-) TimerEvent: {}
+[18.756505] (-) TimerEvent: {}
+[18.856793] (-) TimerEvent: {}
+[18.957060] (-) TimerEvent: {}
+[19.057380] (-) TimerEvent: {}
+[19.157719] (-) TimerEvent: {}
+[19.257979] (-) TimerEvent: {}
+[19.358315] (-) TimerEvent: {}
+[19.458613] (-) TimerEvent: {}
+[19.559004] (-) TimerEvent: {}
+[19.659271] (-) TimerEvent: {}
+[19.759549] (-) TimerEvent: {}
+[19.859840] (-) TimerEvent: {}
+[19.960118] (-) TimerEvent: {}
+[20.060467] (-) TimerEvent: {}
+[20.160813] (-) TimerEvent: {}
+[20.192872] (ctrl_ws) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lqr_implement\x1b[0m\n'}
+[20.193699] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_link_script CMakeFiles/lqr_implement.dir/link.txt --verbose=1\n'}
+[20.201105] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o  -o lqr_implement  -Wl,-rpath,/opt/ros/foxy/lib:/home/dfx-rick/ctrl_ws/build/ctrl_ws /opt/ros/foxy/lib/librclcpp.so liblqr_base.so /opt/ros/foxy/lib/liblibstatistics_collector.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librcl.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librmw_implementation.so /opt/ros/foxy/lib/librmw.so /opt/ros/foxy/lib/librcl_logging_spdlog.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.5.0 -lpthread /opt/ros/foxy/lib/librcl_yaml_param_parser.so /opt/ros/foxy/lib/libyaml.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosgraph_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_cpp.so /opt/ros/foxy/lib/librosidl_typesupport_c.so /opt/ros/foxy/lib/librcpputils.so /opt/ros/foxy/lib/librosidl_runtime_c.so /opt/ros/foxy/lib/librcutils.so -ldl /opt/ros/foxy/lib/libtracetools.so \n'}
+[20.260952] (-) TimerEvent: {}
+[20.330926] (ctrl_ws) StdoutLine: {'line': b"make[2]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[20.339803] (ctrl_ws) StdoutLine: {'line': b'[100%] Built target lqr_implement\n'}
+[20.340646] (ctrl_ws) StdoutLine: {'line': b"make[1]: Leaving directory '/home/dfx-rick/ctrl_ws/build/ctrl_ws'\n"}
+[20.340830] (ctrl_ws) StdoutLine: {'line': b'/usr/bin/cmake -E cmake_progress_start /home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles 0\n'}
+[20.352434] (ctrl_ws) CommandEnded: {'returncode': 0}
+[20.361154] (-) TimerEvent: {}
+[20.385066] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'install'}
+[20.396519] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '9139'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '8945'), ('MAKEFLAGS', '-j1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:50391'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('COPPELIASIM_ROOT_DIR', '/home/dfx-rick/home/dfx-rick/Downloads/VREP'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws/bin:/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/9181,unix/rikin-linux-20:/tmp/.ICE-unix/9181'), ('INVOCATION_ID', '2afbfdc30fac4a6e932c0ad2f0cadc02'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4efe56ac_594e_45d5_a1b1_fb2fa6045821'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.580'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('VERBOSE', '1'), ('CMAKE_PREFIX_PATH', '/home/dfx-rick/ctrl_ws/install/ctrl_ws:/opt/ros/foxy')]), 'shell': False}
+[20.407186] (ctrl_ws) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[20.407647] (ctrl_ws) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[20.408189] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr\n'}
+[20.408343] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h\n'}
+[20.408861] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/script/irb140.lua\n'}
+[20.409314] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/liblqr_base.so\n'}
+[20.409621] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/ctrl_ws/lqr_implement\n'}
+[20.409966] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.sh\n'}
+[20.410292] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.dsv\n'}
+[20.410606] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/package_run_dependencies/ctrl_ws\n'}
+[20.410909] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/parent_prefix_path/ctrl_ws\n'}
+[20.411281] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.sh\n'}
+[20.411594] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.dsv\n'}
+[20.411887] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.sh\n'}
+[20.412269] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.dsv\n'}
+[20.412592] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.bash\n'}
+[20.412886] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.sh\n'}
+[20.413172] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.zsh\n'}
+[20.413515] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.dsv\n'}
+[20.413761] (ctrl_ws) StdoutLine: {'line': b'-- Symlinking: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv\n'}
+[20.424254] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/packages/ctrl_ws\n'}
+[20.424632] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.424927] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.425253] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.425576] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig.cmake\n'}
+[20.425790] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig-version.cmake\n'}
+[20.426059] (ctrl_ws) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.xml\n'}
+[20.426334] (ctrl_ws) StdoutLine: {'line': b'-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/liblqr_base.so\n'}
+[20.429464] (ctrl_ws) CommandEnded: {'returncode': 0}
+[20.461305] (-) TimerEvent: {}
+[20.489855] (ctrl_ws) JobEnded: {'identifier': 'ctrl_ws', 'rc': 0}
+[20.490569] (-) EventReactorShutdown: {}

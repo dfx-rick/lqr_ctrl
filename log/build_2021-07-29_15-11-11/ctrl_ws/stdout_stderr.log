@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target lqr_base[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library liblqr_base.so[0m
+[100%] Built target lqr_base
+-- Install configuration: ""
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+CMake Error at cmake_install.cmake:45 (file):
+  file INSTALL cannot find "/home/dfx-rick/ctrl_ws/scenes": No such file or
+  directory.
+
+

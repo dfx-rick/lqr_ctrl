@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target lqr_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Keigen3/Eigen/src/EigenValues/ComplexEigenSolver.h: No such file or directory
+    3 | #include [01;31m[K<eigen3/Eigen/src/EigenValues/ComplexEigenSolver.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

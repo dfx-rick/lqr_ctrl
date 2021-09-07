@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.051s] [35m[1mScanning dependencies of target lqr_base[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o[0m
+[9.262s] [100%] [32m[1mLinking CXX shared library liblqr_base.so[0m
+[9.573s] [100%] Built target lqr_base
+[9.584s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[9.613s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[9.621s] -- Install configuration: ""
+[9.621s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include
+[9.621s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+[9.622s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+[9.622s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/script
+[9.622s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/liblqr_base.so
+[9.627s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.sh
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.dsv
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/package_run_dependencies/ctrl_ws
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/parent_prefix_path/ctrl_ws
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.sh
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.dsv
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.sh
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.dsv
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.bash
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.sh
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.zsh
+[9.628s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.dsv
+[9.629s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/packages/ctrl_ws
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_libraries-extras.cmake
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig.cmake
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig-version.cmake
+[9.629s] -- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.xml
+[9.631s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws

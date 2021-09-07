@@ -1,0 +1,17 @@
+[0.011s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.051s] [35m[1mScanning dependencies of target lqr_base[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o[0m
+[9.783s] [100%] [32m[1mLinking CXX shared library liblqr_base.so[0m
+[10.344s] [100%] Built target lqr_base
+[10.354s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[10.385s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[10.393s] -- Install configuration: ""
+[10.394s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include
+[10.394s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+[10.394s] -- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+[11.686s] CMake Error at cmake_install.cmake:45 (file):
+[11.687s]   file INSTALL cannot find "/home/dfx-rick/ctrl_ws/scenes": No such file or
+[11.687s]   directory.
+[11.688s] 
+[11.688s] 
+[11.693s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws

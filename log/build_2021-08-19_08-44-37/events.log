@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (ctrl_ws) JobQueued: {'identifier': 'ctrl_ws', 'dependencies': OrderedDict()}
+[0.000337] (ctrl_ws) JobStarted: {'identifier': 'ctrl_ws'}
+[0.043143] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'cmake'}
+[0.066456] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '/home/dfx-rick/ctrl_ws', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '5170'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:47040'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/5217,unix/rikin-linux-20:/tmp/.ICE-unix/5217'), ('INVOCATION_ID', '5820499cd20a4382b2f0ef773c57fdcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/826a935a_cb3f_4c21_9dd8_4d56f889f683'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.098438] (-) TimerEvent: {}
+[0.199488] (-) TimerEvent: {}
+[0.300612] (-) TimerEvent: {}
+[0.401391] (-) TimerEvent: {}
+[0.502191] (-) TimerEvent: {}
+[0.603069] (-) TimerEvent: {}
+[0.692625] (ctrl_ws) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.703275] (-) TimerEvent: {}
+[0.804020] (-) TimerEvent: {}
+[0.881117] (ctrl_ws) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.904290] (-) TimerEvent: {}
+[1.004601] (-) TimerEvent: {}
+[1.104954] (-) TimerEvent: {}
+[1.205259] (-) TimerEvent: {}
+[1.305714] (-) TimerEvent: {}
+[1.319685] (ctrl_ws) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.406025] (-) TimerEvent: {}
+[1.493099] (ctrl_ws) StdoutLine: {'line': b'-- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.506211] (-) TimerEvent: {}
+[1.606953] (-) TimerEvent: {}
+[1.707592] (-) TimerEvent: {}
+[1.808367] (-) TimerEvent: {}
+[1.861697] (ctrl_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.886150] (ctrl_ws) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.908661] (-) TimerEvent: {}
+[2.009400] (-) TimerEvent: {}
+[2.110218] (-) TimerEvent: {}
+[2.211073] (-) TimerEvent: {}
+[2.311761] (-) TimerEvent: {}
+[2.412187] (-) TimerEvent: {}
+[2.435014] (ctrl_ws) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.512344] (-) TimerEvent: {}
+[2.612764] (-) TimerEvent: {}
+[2.617198] (ctrl_ws) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.682156] (ctrl_ws) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.713108] (-) TimerEvent: {}
+[2.813980] (-) TimerEvent: {}
+[2.914506] (-) TimerEvent: {}
+[3.014925] (-) TimerEvent: {}
+[3.115436] (-) TimerEvent: {}
+[3.215926] (-) TimerEvent: {}
+[3.278243] (ctrl_ws) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.316083] (-) TimerEvent: {}
+[3.416511] (-) TimerEvent: {}
+[3.517208] (-) TimerEvent: {}
+[3.618093] (-) TimerEvent: {}
+[3.712396] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.718316] (-) TimerEvent: {}
+[3.819087] (-) TimerEvent: {}
+[3.919837] (-) TimerEvent: {}
+[4.020357] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.020583] (-) TimerEvent: {}
+[4.020789] (ctrl_ws) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include\n'}
+[4.020891] (ctrl_ws) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.088832] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.089018] (ctrl_ws) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.097977] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.114959] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.120695] (-) TimerEvent: {}
+[4.124033] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.191961] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.192143] (ctrl_ws) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.201027] (ctrl_ws) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.221012] (-) TimerEvent: {}
+[4.285007] (ctrl_ws) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.321314] (-) TimerEvent: {}
+[4.390252] (ctrl_ws) StdoutLine: {'line': b'-- Generating done\n'}
+[4.399639] (ctrl_ws) StdoutLine: {'line': b'-- Build files have been written to: /home/dfx-rick/ctrl_ws/build/ctrl_ws\n'}
+[4.414426] (ctrl_ws) CommandEnded: {'returncode': 0}
+[4.416023] (ctrl_ws) JobProgress: {'identifier': 'ctrl_ws', 'progress': 'build'}
+[4.419361] (ctrl_ws) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dfx-rick/ctrl_ws/build/ctrl_ws', '--', '-j4', '-l4'], 'cwd': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dfx-rick'), ('SSH_AGENT_PID', '5170'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('VREP_ROOT', '/dfx-rick/Downloads/VREP'), ('HOME', '/home/dfx-rick'), ('OLDPWD', '/home/dfx-rick'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '4977'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'dfx-rick'), ('JOURNAL_STREAM', '8:47040'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dfx-rick'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/dfx-rick/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rikin-linux-20:@/tmp/.ICE-unix/5217,unix/rikin-linux-20:/tmp/.ICE-unix/5217'), ('INVOCATION_ID', '5820499cd20a4382b2f0ef773c57fdcf'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/826a935a_cb3f_4c21_9dd8_4d56f889f683'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dfx-rick/ctrl_ws/build/ctrl_ws'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.421393] (-) TimerEvent: {}
+[4.467867] (ctrl_ws) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lqr_base\x1b[0m\n'}
+[4.485465] (ctrl_ws) StdoutLine: {'line': b'[ 50%] Built target lqr_test\n'}
+[4.490871] (ctrl_ws) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lqr_base.dir/src/lqr.cpp.o\x1b[0m\n'}
+[4.521748] (-) TimerEvent: {}
+[4.622811] (-) TimerEvent: {}
+[4.723897] (-) TimerEvent: {}
+[4.824945] (-) TimerEvent: {}
+[4.925943] (-) TimerEvent: {}
+[5.026932] (-) TimerEvent: {}
+[5.128037] (-) TimerEvent: {}
+[5.229128] (-) TimerEvent: {}
+[5.330222] (-) TimerEvent: {}
+[5.431267] (-) TimerEvent: {}
+[5.532294] (-) TimerEvent: {}
+[5.633355] (-) TimerEvent: {}
+[5.734345] (-) TimerEvent: {}
+[5.835265] (-) TimerEvent: {}
+[5.935796] (-) TimerEvent: {}
+[6.036719] (-) TimerEvent: {}
+[6.137747] (-) TimerEvent: {}
+[6.238734] (-) TimerEvent: {}
+[6.339745] (-) TimerEvent: {}
+[6.440687] (-) TimerEvent: {}
+[6.541403] (-) TimerEvent: {}
+[6.642257] (-) TimerEvent: {}
+[6.743341] (-) TimerEvent: {}
+[6.844432] (-) TimerEvent: {}
+[6.945575] (-) TimerEvent: {}
+[7.046726] (-) TimerEvent: {}
+[7.147783] (-) TimerEvent: {}
+[7.248813] (-) TimerEvent: {}
+[7.349878] (-) TimerEvent: {}
+[7.450818] (-) TimerEvent: {}
+[7.551920] (-) TimerEvent: {}
+[7.653015] (-) TimerEvent: {}
+[7.754114] (-) TimerEvent: {}
+[7.855262] (-) TimerEvent: {}
+[7.956337] (-) TimerEvent: {}
+[8.057323] (-) TimerEvent: {}
+[8.157997] (-) TimerEvent: {}
+[8.258820] (-) TimerEvent: {}
+[8.359867] (-) TimerEvent: {}
+[8.460902] (-) TimerEvent: {}
+[8.561678] (-) TimerEvent: {}
+[8.662017] (-) TimerEvent: {}
+[8.762368] (-) TimerEvent: {}
+[8.862698] (-) TimerEvent: {}
+[8.963026] (-) TimerEvent: {}
+[9.063372] (-) TimerEvent: {}
+[9.163706] (-) TimerEvent: {}
+[9.264045] (-) TimerEvent: {}
+[9.343608] (ctrl_ws) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:7:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kqr\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Klqr\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.343831] (ctrl_ws) StderrLine: {'line': b'    7 | \x1b[01;31m\x1b[Kqr\x1b[m\x1b[K::lqr(lss &system_, std::vector<double> Q_, std::vector<double> R_){\n'}
+[9.343899] (ctrl_ws) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[9.343959] (ctrl_ws) StderrLine: {'line': b'      | \x1b[32m\x1b[Klqr\x1b[m\x1b[K\n'}
+[9.364195] (-) TimerEvent: {}
+[9.464520] (-) TimerEvent: {}
+[9.564835] (-) TimerEvent: {}
+[9.665183] (-) TimerEvent: {}
+[9.765529] (-) TimerEvent: {}
+[9.865876] (-) TimerEvent: {}
+[9.966197] (-) TimerEvent: {}
+[10.066507] (-) TimerEvent: {}
+[10.166809] (-) TimerEvent: {}
+[10.267123] (-) TimerEvent: {}
+[10.367502] (-) TimerEvent: {}
+[10.467840] (-) TimerEvent: {}
+[10.568171] (-) TimerEvent: {}
+[10.668443] (-) TimerEvent: {}
+[10.768732] (-) TimerEvent: {}
+[10.869035] (-) TimerEvent: {}
+[10.969335] (-) TimerEvent: {}
+[11.069636] (-) TimerEvent: {}
+[11.169965] (-) TimerEvent: {}
+[11.270325] (-) TimerEvent: {}
+[11.370652] (-) TimerEvent: {}
+[11.470949] (-) TimerEvent: {}
+[11.571241] (-) TimerEvent: {}
+[11.671494] (-) TimerEvent: {}
+[11.771789] (-) TimerEvent: {}
+[11.872081] (-) TimerEvent: {}
+[11.972370] (-) TimerEvent: {}
+[12.072661] (-) TimerEvent: {}
+[12.172971] (-) TimerEvent: {}
+[12.273284] (-) TimerEvent: {}
+[12.373584] (-) TimerEvent: {}
+[12.473873] (-) TimerEvent: {}
+[12.574176] (-) TimerEvent: {}
+[12.674435] (-) TimerEvent: {}
+[12.818550] (-) TimerEvent: {}
+[12.918883] (-) TimerEvent: {}
+[13.019212] (-) TimerEvent: {}
+[13.119554] (-) TimerEvent: {}
+[13.219849] (-) TimerEvent: {}
+[13.320321] (-) TimerEvent: {}
+[13.421028] (-) TimerEvent: {}
+[13.521724] (-) TimerEvent: {}
+[13.622424] (-) TimerEvent: {}
+[13.723233] (-) TimerEvent: {}
+[13.824010] (-) TimerEvent: {}
+[13.924677] (-) TimerEvent: {}
+[14.025032] (-) TimerEvent: {}
+[14.125515] (-) TimerEvent: {}
+[14.149400] (ctrl_ws) StderrLine: {'line': b'make[2]: *** [CMakeFiles/lqr_base.dir/build.make:63: CMakeFiles/lqr_base.dir/src/lqr.cpp.o] Error 1\n'}
+[14.149776] (ctrl_ws) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lqr_base.dir/all] Error 2\n'}
+[14.150043] (ctrl_ws) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.152197] (ctrl_ws) CommandEnded: {'returncode': 2}
+[14.225815] (-) TimerEvent: {}
+[14.326600] (-) TimerEvent: {}
+[14.343915] (ctrl_ws) JobEnded: {'identifier': 'ctrl_ws', 'rc': 2}
+[14.355991] (-) EventReactorShutdown: {}

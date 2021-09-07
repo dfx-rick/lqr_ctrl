@@ -1,0 +1,7 @@
+[01m[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:[m[K In member function ‘[01m[Kvoid ctrl_node::callback(std_msgs::msg::Float32MultiArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/dfx-rick/ctrl_ws/src/ctrl_node.cpp:93:5:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Kauto ci[m[K’ has no initializer
+   93 |     [01;31m[Kauto[m[K ci;
+      |     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/lqr_implement.dir/build.make:63: CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lqr_implement.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

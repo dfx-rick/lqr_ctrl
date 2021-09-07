@@ -1,0 +1,7 @@
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:7:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kqr[m[K’ does not name a type; did you mean ‘[01m[Klqr[m[K’?
+    7 | [01;31m[Kqr[m[K::lqr(lss &system_, std::vector<double> Q_, std::vector<double> R_){
+      | [01;31m[K^~[m[K
+      | [32m[Klqr[m[K
+make[2]: *** [CMakeFiles/lqr_base.dir/build.make:63: CMakeFiles/lqr_base.dir/src/lqr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/lqr_base.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target lqr_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lqr_test.dir/src/example.cpp.o[0m
+[ 75%] Built target lqr_base
+[01m[K/home/dfx-rick/ctrl_ws/src/example.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/dfx-rick/ctrl_ws/src/example.cpp:10:25:[m[K [01;35m[Kwarning: [m[Kdivision by zero [[01;35m[K-Wdiv-by-zero[m[K]
+   10 |  system.A<< 0,1,0,[01;35m[K-1.0/5/0[m[K;
+      |                   [01;35m[K~~~~~~^~[m[K
+[100%] [32m[1mLinking CXX shared library liblqr_test.so[0m
+[100%] Built target lqr_test
+-- Install configuration: ""
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr.h
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/include/lqr
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/script
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/liblqr_base.so
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.sh
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/library_path.dsv
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/package_run_dependencies/ctrl_ws
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/parent_prefix_path/ctrl_ws
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.sh
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.sh
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/environment/path.dsv
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.bash
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.sh
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.zsh
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/local_setup.dsv
+-- Installing: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ament_index/resource_index/packages/ctrl_ws
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig.cmake
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/cmake/ctrl_wsConfig-version.cmake
+-- Up-to-date: /home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.xml

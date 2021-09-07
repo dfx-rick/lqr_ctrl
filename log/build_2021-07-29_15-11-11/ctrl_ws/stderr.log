@@ -1,0 +1,5 @@
+CMake Error at cmake_install.cmake:45 (file):
+  file INSTALL cannot find "/home/dfx-rick/ctrl_ws/scenes": No such file or
+  directory.
+
+

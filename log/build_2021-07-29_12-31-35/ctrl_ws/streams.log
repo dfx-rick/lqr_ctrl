@@ -1,0 +1,31 @@
+[0.012s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.366s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.532s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.902s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.220s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.839s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.845s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.256s] CMake Error at CMakeLists.txt:33 (install):
+[2.256s]   install TARGETS given target "lqr_core" which does not exist.
+[2.256s] 
+[2.256s] 
+[2.292s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.551s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.129s] -- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include
+[3.129s] -- Configured cppcheck exclude dirs and/or files: 
+[3.192s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.192s] -- Configured cpplint exclude dirs and/or files: 
+[3.200s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.216s] -- Added test 'lint_cmake' to check CMake code style
+[3.224s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.286s] -- Added test 'uncrustify' to check C / C++ code style
+[3.286s] -- Configured uncrustify additional arguments: 
+[3.294s] -- Added test 'xmllint' to check XML markup files
+[3.422s] -- Configuring incomplete, errors occurred!
+[3.422s] See also "/home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/CMakeOutput.log".
+[3.423s] See also "/home/dfx-rick/ctrl_ws/build/ctrl_ws/CMakeFiles/CMakeError.log".
+[3.439s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[3.442s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

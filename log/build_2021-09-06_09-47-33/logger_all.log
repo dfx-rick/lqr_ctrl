@@ -1,0 +1,116 @@
+[8.001s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[8.001s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcca196f910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcca196f910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcca196fe80>)
+[8.065s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[8.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[8.066s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[8.067s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.067s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dfx-rick/ctrl_ws'
+[8.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.068s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[8.069s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[8.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[8.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[8.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.070s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.174s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ctrl_ws'
+[8.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[8.329s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_target' from command line to 'None'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_clean_first' from command line to 'False'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'cmake_force_configure' from command line to 'False'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'ament_cmake_args' from command line to 'None'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[8.330s] Level 5:colcon.colcon_core.verb:set package 'ctrl_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.330s] DEBUG:colcon.colcon_core.verb:Building package 'ctrl_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dfx-rick/ctrl_ws/build/ctrl_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dfx-rick/ctrl_ws/install/ctrl_ws', 'merge_install': False, 'path': '/home/dfx-rick/ctrl_ws', 'symlink_install': True, 'test_result_base': None}
+[8.331s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.337s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.338s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dfx-rick/ctrl_ws' with build type 'ament_cmake'
+[8.338s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dfx-rick/ctrl_ws'
+[8.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.349s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.353s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[8.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[13.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dfx-rick/ctrl_ws -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dfx-rick/ctrl_ws/install/ctrl_ws
+[13.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[13.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[13.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[13.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrl_ws)
+[13.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[14.003s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws' for CMake module files
+[14.006s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws' for CMake config files
+[14.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'cmake_prefix_path')
+[14.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.ps1'
+[14.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.dsv'
+[14.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.sh'
+[14.067s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib'
+[14.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'ld_library_path_lib')
+[14.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.ps1'
+[14.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.dsv'
+[14.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.sh'
+[14.078s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/bin'
+[14.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'path')
+[14.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.ps1'
+[14.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.dsv'
+[14.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.sh'
+[14.085s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/pkgconfig/ctrl_ws.pc'
+[14.085s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/python3.8/site-packages'
+[14.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.ps1'
+[14.090s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv'
+[14.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.sh'
+[14.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.bash'
+[14.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.zsh'
+[14.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/colcon-core/packages/ctrl_ws)
+[14.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ctrl_ws)
+[14.185s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws' for CMake module files
+[14.186s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws' for CMake config files
+[14.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'cmake_prefix_path')
+[14.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.ps1'
+[14.188s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.dsv'
+[14.188s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/cmake_prefix_path.sh'
+[14.189s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib'
+[14.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'ld_library_path_lib')
+[14.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.ps1'
+[14.191s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.dsv'
+[14.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/ld_library_path_lib.sh'
+[14.192s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/bin'
+[14.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('ctrl_ws', 'path')
+[14.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.ps1'
+[14.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.dsv'
+[14.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/hook/path.sh'
+[14.194s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/pkgconfig/ctrl_ws.pc'
+[14.194s] Level 1:colcon.colcon_core.environment:checking '/home/dfx-rick/ctrl_ws/install/ctrl_ws/lib/python3.8/site-packages'
+[14.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.ps1'
+[14.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.dsv'
+[14.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.sh'
+[14.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.bash'
+[14.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/ctrl_ws/package.zsh'
+[14.198s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dfx-rick/ctrl_ws/install/ctrl_ws/share/colcon-core/packages/ctrl_ws)
+[14.199s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.200s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[14.200s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.219s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.242s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfx-rick/ctrl_ws/install/local_setup.ps1'
+[14.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dfx-rick/ctrl_ws/install/_local_setup_util_ps1.py'
+[14.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfx-rick/ctrl_ws/install/setup.ps1'
+[14.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfx-rick/ctrl_ws/install/local_setup.sh'
+[14.252s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dfx-rick/ctrl_ws/install/_local_setup_util_sh.py'
+[14.252s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfx-rick/ctrl_ws/install/setup.sh'
+[14.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfx-rick/ctrl_ws/install/local_setup.bash'
+[14.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfx-rick/ctrl_ws/install/setup.bash'
+[14.260s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dfx-rick/ctrl_ws/install/local_setup.zsh'
+[14.266s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dfx-rick/ctrl_ws/install/setup.zsh'

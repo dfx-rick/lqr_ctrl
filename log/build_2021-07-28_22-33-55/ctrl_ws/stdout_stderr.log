@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target lqr_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:6:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+    6 | lqr::lqr[34m[K([m[Klss &system_, std::vector<double> Q_, std::vector<double> R_[01;31m[K;[m[K){
+      |         [34m[K~[m[K                                                            [01;31m[K^[m[K
+      |                                                                      [32m[K)[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:6:1:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Klqr::lqr(lss&, std::vector<double>, std::vector<double>)[m[K’ outside of class is not definition [[01;31m[K-fpermissive[m[K]
+    6 | [01;31m[Klqr[m[K::lqr(lss &system_, std::vector<double> Q_, std::vector<double> R_;){
+      | [01;31m[K^~~[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:6:71:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+    6 | lqr::lqr(lss &system_, std::vector<double> Q_, std::vector<double> R_;[01;31m[K)[m[K{
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KupdateK[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   38 | lqr::updateK(lss &system_[01;31m[K)[m[K{
+      |                          [01;31m[K^[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint lqr::updateK(lss&)[m[K’
+   38 | [01;31m[Klqr[m[K::updateK(lss &system_){
+      | [01;31m[K^~~[m[K
+In file included from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:30:7:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid lqr::updateK(lss&)[m[K’
+   30 |  void [01;36m[KupdateK[m[K(lss &system_);
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass lqr[m[K’ defined here
+   20 | class [01;36m[Klqr[m[K{
+      |       [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

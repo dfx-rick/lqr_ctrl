@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target lqr_core[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/lqr_core.dir/src/lqr.cpp.o[0m
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K In constructor ‘[01m[Klqr::lqr(lss&, std::vector<double>, std::vector<double>)[m[K’:
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:8:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass lqr[m[K’ has no member named ‘[01m[KNumofStates[m[K’; did you mean ‘[01m[KNumOfStates[m[K’?
+    8 |  this->[01;31m[KNumofStates[m[K= int(std::pow(Q.size(),0.5));
+      |        [01;31m[K^~~~~~~~~~~[m[K
+      |        [32m[KNumOfStates[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:11:27:[m[K [01;31m[Kerror: [m[K‘[01m[KNumofStates[m[K’ was not declared in this scope; did you mean ‘[01m[KNumOfStates[m[K’?
+   11 |  this->A= Eigen::MatrixXd([01;31m[KNumofStates[m[K, NumofStates);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+      |                           [32m[KNumOfStates[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:25:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KNumInputs[m[K’ in ‘[01m[K((lqr*)this)->lqr::NumInputs[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+   25 |  this->R= Eigen::MatrixXd(NumInputs.[01;31m[KNumInputs[m[K);
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:29:16:[m[K [01;31m[Kerror: [m[K‘[01m[KNumoInputs[m[K’ was not declared in this scope; did you mean ‘[01m[KNumInputs[m[K’?
+   29 |    R(i,j)=R_[i*[01;31m[KNumoInputs[m[K+j];
+      |                [01;31m[K^~~~~~~~~~[m[K
+      |                [32m[KNumInputs[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K At global scope:
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:26:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KupdateK[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   38 | lqr::updateK(lss &system_[01;31m[K)[m[K{
+      |                          [01;31m[K^[m[K
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:38:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint lqr::updateK(lss&)[m[K’
+   38 | [01;31m[Klqr[m[K::updateK(lss &system_){
+      | [01;31m[K^~~[m[K
+In file included from [01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:1[m[K:
+[01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:30:7:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid lqr::updateK(lss&)[m[K’
+   30 |  void [01;36m[KupdateK[m[K(lss &system_);
+      |       [01;36m[K^~~~~~~[m[K
+[01m[K/home/dfx-rick/ctrl_ws/include/lqr.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass lqr[m[K’ defined here
+   20 | class [01;36m[Klqr[m[K{
+      |       [01;36m[K^~~[m[K
+make[2]: *** [CMakeFiles/lqr_core.dir/build.make:63: CMakeFiles/lqr_core.dir/src/lqr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_core.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

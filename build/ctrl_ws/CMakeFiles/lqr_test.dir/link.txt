@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,liblqr_test.so -o liblqr_test.so CMakeFiles/lqr_test.dir/src/example.cpp.o 

@@ -1,0 +1,37 @@
+[0.015s] Invoking command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4
+[0.040s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.285s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.292s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.328s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.497s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.641s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.707s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.786s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.786s] -- Configured cppcheck include dirs: /home/dfx-rick/ctrl_ws/include
+[0.786s] -- Configured cppcheck exclude dirs and/or files: 
+[0.865s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.865s] -- Configured cpplint exclude dirs and/or files: 
+[0.875s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.894s] -- Added test 'lint_cmake' to check CMake code style
+[0.904s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.982s] -- Added test 'uncrustify' to check C / C++ code style
+[0.982s] -- Configured uncrustify additional arguments: 
+[0.991s] -- Added test 'xmllint' to check XML markup files
+[0.996s] -- Configuring done
+[1.003s] -- Generating done
+[1.004s] -- Build files have been written to: /home/dfx-rick/ctrl_ws/build/ctrl_ws
+[1.028s] [35m[1mScanning dependencies of target lqr_implement[0m
+[1.039s] [ 50%] Built target lqr_base
+[1.047s] [ 75%] [32mBuilding CXX object CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o[0m
+[7.210s] [100%] [32m[1mLinking CXX executable lqr_implement[0m
+[7.555s] /usr/bin/ld: CMakeFiles/lqr_implement.dir/src/ctrl_node.cpp.o: in function `ctrl_node::ctrl_node()':
+[7.555s] ctrl_node.cpp:(.text._ZN9ctrl_nodeC2Ev[_ZN9ctrl_nodeC5Ev]+0x7d7): undefined reference to `lqr::lqr(lss&, std::vector<double, std::allocator<double> >, std::vector<double, std::allocator<double> >)'
+[7.555s] collect2: error: ld returned 1 exit status
+[7.556s] make[2]: *** [CMakeFiles/lqr_implement.dir/build.make:131: lqr_implement] Error 1
+[7.557s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/lqr_implement.dir/all] Error 2
+[7.557s] make: *** [Makefile:141: all] Error 2
+[7.558s] Invoked command in '/home/dfx-rick/ctrl_ws/build/ctrl_ws' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/dfx-rick/ctrl_ws/build/ctrl_ws -- -j4 -l4

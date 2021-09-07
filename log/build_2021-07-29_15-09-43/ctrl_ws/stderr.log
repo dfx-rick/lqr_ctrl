@@ -1,0 +1,7 @@
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:[m[K In member function ‘[01m[Kvoid lqr::updateK(lss&)[m[K’:
+[01m[K/home/dfx-rick/ctrl_ws/src/lqr.cpp:48:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   48 |  Eigen::MatrixXcd ev= Eigen::MatrixXcd[01;31m[K.[m[KZero(2*NumofStates, NumofStates);
+      |                                       [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/lqr_base.dir/build.make:63: CMakeFiles/lqr_base.dir/src/lqr.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/lqr_base.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
